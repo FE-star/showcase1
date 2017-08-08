@@ -18,3 +18,9 @@
     3. http://y.stuq.com/public/3.html
     4. http://y.stuq.com/public/4.html
     5. http://y.stuq.com/public/5.html
+
+### 参考
+
+* [浏览器同源政策及其规避方法](http://www.ruanyifeng.com/blog/2016/04/same-origin-policy.html)
+* [XMLHTTPRequest](https://developer.mozilla.org/zh-CN/docs/Web/API/XMLHttpRequest)
+* [window.postMessage](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/postMessage)
