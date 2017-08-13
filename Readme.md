@@ -13,11 +13,11 @@
 
 * 例子是下面这几个
 
-    1. http://y.stuq.com/public/1.html
-    2. http://y.stuq.com/public/2.html
-    3. http://y.stuq.com/public/3.html
-    4. http://y.stuq.com/public/4.html
-    5. http://y.stuq.com/public/5.html
+    1. http://y.stuq.com:7001/public/1.html
+    2. http://y.stuq.com:7001/public/2.html
+    3. http://y.stuq.com:7001/public/3.html
+    4. http://y.stuq.com:7001/public/4.html
+    5. http://y.stuq.com:7001/public/5.html
 
 ### 参考
 
