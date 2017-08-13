@@ -28,5 +28,6 @@ xhr.onreadystatechange = function () {
       break
   }
 }
+
 xhr.open('GET', 'http://y.stuq.com:7001/json', true)
 xhr.send(null)
