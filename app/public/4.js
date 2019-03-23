@@ -1,5 +1,5 @@
 var iframe = document.createElement('iframe')
-iframe.src = 'http://x.stuq.com:7001/public/name.html'
+iframe.src = 'http://x.localhost.com:7001/public/name.html'
 document.body.appendChild(iframe)
 
 var times = 0

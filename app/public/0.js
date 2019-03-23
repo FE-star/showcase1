@@ -29,5 +29,5 @@ xhr.onreadystatechange = function () {
   }
 }
 
-xhr.open('GET', 'http://y.stuq.com:7001/json', true)
+xhr.open('GET', 'http://y.localhost.com:7001/json', true)
 xhr.send(null)

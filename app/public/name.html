@@ -8,10 +8,10 @@ var xhr = new XMLHttpRequest()
 xhr.onreadystatechange = function () {
     if (xhr.readyState === 4 && xhr.status === 200) {
         window.name = xhr.responseText
-        location.href = 'http://y.stuq.com:7001/public/index.html'
+        location.href = 'http://y.localhost.com:7001/public/index.html'
     }
 }
-xhr.open('GET', 'http://x.stuq.com:7001/json', true)
+xhr.open('GET', 'http://x.localhost.com:7001/json', true)
 xhr.send(null)
 </script>
 </body>
