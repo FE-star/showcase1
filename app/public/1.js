@@ -1,17 +1,24 @@
 /**
- * 方法1
+ * solution1
  */
-window.xxx = function (value) {
-  console.log(value)
+function addScriptTag(src) {
+    var script = document.createElement('script');
+    script.setAttribute('type', 'text/javaScript');
+    script.src = src;
+    document.body.appendChild(script);
 }
 
-var script = document.createElement('script')
-script.src = 'http://x.localhost.com:7001/json?callback=xxx'
-document.body.appendChild(script)
+function callback(msg) {
+    console.log(msg)
+}
+
+window.onload = function() {
+    addScriptTag('http://x.localhost.com:7001/json?callback=callback');
+}
 
 /**
- * 方法2
+ * solution2
  */
-// require(['http://x.localhost.com:7001/json?callback=define'], function (value) {
-//   console.log(value)
+// require(['http://x.localhost.com:7001/json?callback=define'], function(value) {
+//     console.log(value);
 // })
